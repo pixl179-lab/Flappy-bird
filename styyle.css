@@ -15,15 +15,13 @@
 body {
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
 }
 
 header {
     display: flex;
     flex-direction: column;
 }
-
-
-
 
 .banner {
     height: 300px;
@@ -58,31 +56,31 @@ h1 {
 }
 
 main {
-    background-color: ;
     display: flex;
     flex-direction: column;
 }
+
 .megabulle {
     display: flex;
     position: relative;
     flex-direction: column;
-    background-color: yellow;
     overflow: hidden;
     padding-top: 3%;
-    
-    
+
+
 }
 
 .megabulle .bulle_blanche {
-    background-color: blue;
     height: 600px;
     margin: 0 0 0 0;
     padding: 0 0 0 5%;
 }
+
 .megabulle .bulle_texte {
- position: absolute;   
+ position: absolute;
  padding-left: 12%;
- } 
+ }
+
 .megabulle h2 {
     font-family: 'Syndra-SemiBold', sans-serif;
     font-size: 50px;
@@ -91,8 +89,8 @@ main {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
 .megabulle p {
-    background-color: pink;
     font-family: 'Syndra-SemiBold', sans-serif;
     font-size: 30px;
     letter-spacing: 2px;
@@ -100,28 +98,29 @@ main {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
 .megabulle .flappy {
-    background-color: gray;
     position: absolute;
     height: 50%;
     bottom: -45px;
 }
 
 
-.megabulle2 .buller{
+.megabulle2 .buller {
     background-color: rgb(5, 5, 77);
     height: 650px;
     margin: 0 0 0 0;
     padding: 0 6.5% 0 0;
 }
-.megabulle2{
+
+.megabulle2 {
     display: flex;
     position: relative;
     flex-direction: column;
-    background-color: yellow;
     overflow: hidden;
 }
-.megabulle2 .h2{
+
+.megabulle2 .h2 {
     font-family: 'Syndra-SemiBold', sans-serif;
     font-size: 50px;
     letter-spacing: 4px;
@@ -130,8 +129,7 @@ main {
     -webkit-text-fill-color: transparent;
 }
 
-.megabulle2 .ph2{
-background-color: pink;
+.megabulle2 .ph2 {
     font-family: 'Syndra-SemiBold', sans-serif;
     font-size: 30px;
     letter-spacing: 2px;
@@ -139,35 +137,33 @@ background-color: pink;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-.megabulle2 .bb{
+.megabulle2 .bb {
     position: absolute;
     padding-left: 12.5%
 }
-.megabulle2 .flappyr{
+
+.megabulle2 .flappyr {
     position: absolute;
     height: 50%;
     bottom: -45px;
     right: 0;
-    background-color: bisque;
 }
 
-.megabulle3{
+.megabulle3 {
     display: flex;
     position: relative;
     flex-direction: column;
-    background-color: yellow;
     overflow: hidden;
-
 }
-.megabulle3 .bulleh3{
 
-background-color: rgb(61, 61, 134);
-height: 880px;
-margin: 0;
-padding: 0 0 0 5%;
-
+.megabulle3 .bulleh3 {
+    background-color: rgb(61, 61, 134);
+    height: 880px;
+    margin: 0;
+    padding: 0 0 0 5%;
 }
-.megabulle3 h3{
+
+.megabulle3 h3 {
     font-family: 'Syndra-SemiBold', sans-serif;
     font-size: 50px;
     letter-spacing: 4px;
@@ -176,7 +172,6 @@ padding: 0 0 0 5%;
     -webkit-text-fill-color: transparent;
 }
 .megabulle3 p {
-    background-color: pink;
     font-family: 'Syndra-SemiBold', sans-serif;
     font-size: 30px;
     letter-spacing: 2px;
@@ -184,18 +179,17 @@ padding: 0 0 0 5%;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-.megabulle3 .h3p{
+.megabulle3 .h3p {
     position: absolute;
     padding-left: 12%;
 
 }
-.megabulle3 .flappyh3{
+.megabulle3 .flappyh3 {
     position: absolute;
     height: 37%;
     bottom: 0;
-    background-color: aliceblue;
 }
-.megabulle4 .h4{
+.megabulle4 .h4 {
     font-family: 'Syndra-SemiBold', sans-serif;
     font-size: 50px;
     letter-spacing: 4px;
@@ -203,8 +197,7 @@ padding: 0 0 0 5%;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-.megabulle4 .p4{
-     background-color: pink;
+.megabulle4 .p4 {
     font-family: 'Syndra-SemiBold', sans-serif;
     font-size: 30px;
     letter-spacing: 2px;
@@ -218,28 +211,28 @@ padding: 0 0 0 5%;
     flex-direction: column;
     position: relative;
     overflow: hidden;
-    
+
 }
-.megabulle4 .bullep4{
-   position: relative;
-   height: 720px;
-   background-color: blueviolet;
-    background-color: blue;
-     margin: 0 0 0 0;
+.megabulle4 .bullep4 {
+    position: relative;
+    height: 720px;
+    margin: 0 0 0 0;
     padding: 0 5% 0 0;
 }
-.megabulle4 .h4p{
+
+.megabulle4 .h4p {
     position: absolute;
     padding-left: 13%;
 }
-.megabulle4 .flappyh4{
+
+.megabulle4 .flappyh4 {
     height: 45%;
     position: absolute;
     right: 0;
     bottom: -30px;
-    background-color: brown;
 }
-h5{
+
+h5 {
     font-family: 'Syndra-SemiBold', sans-serif;
     font-size: 50px;
     letter-spacing: 4px;
@@ -249,124 +242,62 @@ h5{
     text-align: center;
     margin-bottom: 10%;
 }
-.ultraliste{
+
+.tous-les-tuyaux {
     display: flex;
     flex-direction: column;
-    position: relative;
-    overflow: hidden;
-}
-.ultraliste li{
-    font-family: 'Syndra-SemiBold', sans-serif;
-    font-size: 50px;
-    letter-spacing: 4px;
-    background: linear-gradient(rgb(0, 0, 0),rgb(6, 7, 2));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    
-}
-.ultraliste p{
-    background-color: pink;
-    font-family: 'Syndra-SemiBold', sans-serif;
-    font-size: 30px;
-    letter-spacing: 2px;
-    background: linear-gradient(rgb(0, 0, 0),rgb(6, 7, 2));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-.ultraliste p{
-    margin-bottom: 15%;
-    
-}
-.ultraliste .tuyau1{
-    position: absolute;
-    top: -31%;
-    left: 0px;
-    rotate: calc(90deg);
-    margin: 0;
-    padding: 0;
-    height: 2700px;
-    width: 1700px;
+    gap: 100px;
 }
 
-.ultraliste .listing1 {
-position: relative;
-padding-right: 35%;
-}
-.ultraliste .listing2{
+.tuyau {
     position: relative;
-    padding-left: 40%;
+    height: 678px;
+    width: 100%;
+    display: flex;
 }
-.ultraliste .tuyau2{
-    position: absolute;
+
+.tuyau-left {
+    justify-content: left;
+    align-items: center;
+}
+
+.listing {
+    height: 100%;
+    width: 1500px;
+    display: flex;
+    flex-direction: column;
+    z-index: 100;
+}
+
+.listing div {
+    height: 100%;
+    padding: 55px 90px 55px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.listing p {
+    font-size: 1.75rem;
+}
+
+.listing h6 {
     margin: 0;
-    padding: 0;
-    height: 2200px;
-    width: 1700px;
-    rotate: calc(270deg);
-    top: -3%;
-    right: 0px;
+    font-size: 2.8rem;
 }
-.ultraliste .listing3{
-    position: relative;
-    padding-right: 40%;
-}
-.ultraliste .tuyau3{
+
+.tuyau-left img {
     position: absolute;
-    top: 16%;
-    left: 0px;
-    rotate: calc(90deg);
-    margin: 0;
-    padding: 0;
-    height: 2200px;
-    width: 1700px;
+    height: 100%;
 }
-.ultraliste .listing4{
-    position: relative;
-    padding-left: 25%;
+
+.tuyau-right {
+    justify-content: right;
+    align-items: center;
 }
-.ultraliste .tuyau4{
+
+.tuyau-right img{
     position: absolute;
-    margin: 0;
-    padding: 0;
-    height: 2400px;
-    width: 2400px;
-    rotate: calc(270deg);
-    top: 36%;
-    right: 0px;
-    
+    height: 110%;
+    rotate: 180deg;
 }
-.listing5 li{
-    font-family: 'Syndra-SemiBold', sans-serif;
-    font-size: 50px;
-    letter-spacing: 4px;
-    background: linear-gradient(rgb(0, 0, 0),rgb(6, 7, 2));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-.listing5 p{
-    background-color: pink;
-    font-family: 'Syndra-SemiBold', sans-serif;
-    font-size: 30px;
-    letter-spacing: 2px;
-    background: linear-gradient(rgb(0, 0, 0),rgb(6, 7, 2));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-.listing5{
-   position: relative;
-    padding-right: 20%; 
-    margin-left: 2%;
-    
-}
-.listing5 .tuyau5{
-    position: absolute;
-    margin: 0;
-    padding: 0;
-    height: 2700px;
-    width: 2800px;
-    rotate: calc(90deg);
-    top: -175%;
-    right: -200px;
-    z-index: -1;
-}
-   
