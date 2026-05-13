@@ -1,0 +1,372 @@
+@font-face {
+    font-family: 'FlappyBirdy';
+    src: url('./font/FlappyBirdy.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Syndra-SemiBold';
+    src: url('font/Syndra-SemiBold.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+.banner {
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+.banner-gif {
+    height: 400px;
+    object-fit: cover;
+    object-position: center;
+    flex: 1;
+}
+
+.square-flappy {
+    height: 100%;
+    background-color: black;
+}
+
+h1 {
+    padding: 50px 0;
+    margin: 0;
+    font-family: 'Flappybirdy', sans-serif;
+    font-size: 8rem;
+    letter-spacing: 8px;
+    background: linear-gradient(rgb(11, 44, 19),rgb(25, 153, 25));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    white-space: nowrap;
+}
+
+main {
+    background-color: ;
+    display: flex;
+    flex-direction: column;
+}
+.megabulle {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    background-color: yellow;
+    overflow: hidden;
+    padding-top: 3%;
+    
+    
+}
+
+.megabulle .bulle_blanche {
+    background-color: blue;
+    height: 600px;
+    margin: 0 0 0 0;
+    padding: 0 0 0 5%;
+}
+.megabulle .bulle_texte {
+ position: absolute;   
+ padding-left: 12%;
+ } 
+.megabulle h2 {
+    font-family: 'Syndra-SemiBold', sans-serif;
+    font-size: 50px;
+    letter-spacing: 4px;
+    background: linear-gradient(rgb(0, 0, 0),rgb(6, 7, 2));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.megabulle p {
+    background-color: pink;
+    font-family: 'Syndra-SemiBold', sans-serif;
+    font-size: 30px;
+    letter-spacing: 2px;
+    background: linear-gradient(rgb(0, 0, 0),rgb(6, 7, 2));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.megabulle .flappy {
+    background-color: gray;
+    position: absolute;
+    height: 50%;
+    bottom: -45px;
+}
+
+
+.megabulle2 .buller{
+    background-color: rgb(5, 5, 77);
+    height: 650px;
+    margin: 0 0 0 0;
+    padding: 0 6.5% 0 0;
+}
+.megabulle2{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    background-color: yellow;
+    overflow: hidden;
+}
+.megabulle2 .h2{
+    font-family: 'Syndra-SemiBold', sans-serif;
+    font-size: 50px;
+    letter-spacing: 4px;
+    background: linear-gradient(rgb(0, 0, 0),rgb(6, 7, 2));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.megabulle2 .ph2{
+background-color: pink;
+    font-family: 'Syndra-SemiBold', sans-serif;
+    font-size: 30px;
+    letter-spacing: 2px;
+    background: linear-gradient(rgb(0, 0, 0),rgb(6, 7, 2));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.megabulle2 .bb{
+    position: absolute;
+    padding-left: 12.5%
+}
+.megabulle2 .flappyr{
+    position: absolute;
+    height: 50%;
+    bottom: -45px;
+    right: 0;
+    background-color: bisque;
+}
+
+.megabulle3{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    background-color: yellow;
+    overflow: hidden;
+
+}
+.megabulle3 .bulleh3{
+
+background-color: rgb(61, 61, 134);
+height: 880px;
+margin: 0;
+padding: 0 0 0 5%;
+
+}
+.megabulle3 h3{
+    font-family: 'Syndra-SemiBold', sans-serif;
+    font-size: 50px;
+    letter-spacing: 4px;
+    background: linear-gradient(rgb(0, 0, 0),rgb(6, 7, 2));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.megabulle3 p {
+    background-color: pink;
+    font-family: 'Syndra-SemiBold', sans-serif;
+    font-size: 30px;
+    letter-spacing: 2px;
+    background: linear-gradient(rgb(0, 0, 0),rgb(6, 7, 2));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.megabulle3 .h3p{
+    position: absolute;
+    padding-left: 12%;
+
+}
+.megabulle3 .flappyh3{
+    position: absolute;
+    height: 37%;
+    bottom: 0;
+    background-color: aliceblue;
+}
+.megabulle4 .h4{
+    font-family: 'Syndra-SemiBold', sans-serif;
+    font-size: 50px;
+    letter-spacing: 4px;
+    background: linear-gradient(rgb(0, 0, 0),rgb(6, 7, 2));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.megabulle4 .p4{
+     background-color: pink;
+    font-family: 'Syndra-SemiBold', sans-serif;
+    font-size: 30px;
+    letter-spacing: 2px;
+    background: linear-gradient(rgb(0, 0, 0),rgb(6, 7, 2));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.megabulle4 {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    overflow: hidden;
+    
+}
+.megabulle4 .bullep4{
+   position: relative;
+   height: 720px;
+   background-color: blueviolet;
+    background-color: blue;
+     margin: 0 0 0 0;
+    padding: 0 5% 0 0;
+}
+.megabulle4 .h4p{
+    position: absolute;
+    padding-left: 13%;
+}
+.megabulle4 .flappyh4{
+    height: 45%;
+    position: absolute;
+    right: 0;
+    bottom: -30px;
+    background-color: brown;
+}
+h5{
+    font-family: 'Syndra-SemiBold', sans-serif;
+    font-size: 50px;
+    letter-spacing: 4px;
+    background: linear-gradient(rgb(0, 0, 0),rgb(6, 7, 2));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    margin-bottom: 10%;
+}
+.ultraliste{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    overflow: hidden;
+}
+.ultraliste li{
+    font-family: 'Syndra-SemiBold', sans-serif;
+    font-size: 50px;
+    letter-spacing: 4px;
+    background: linear-gradient(rgb(0, 0, 0),rgb(6, 7, 2));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+}
+.ultraliste p{
+    background-color: pink;
+    font-family: 'Syndra-SemiBold', sans-serif;
+    font-size: 30px;
+    letter-spacing: 2px;
+    background: linear-gradient(rgb(0, 0, 0),rgb(6, 7, 2));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.ultraliste p{
+    margin-bottom: 15%;
+    
+}
+.ultraliste .tuyau1{
+    position: absolute;
+    top: -31%;
+    left: 0px;
+    rotate: calc(90deg);
+    margin: 0;
+    padding: 0;
+    height: 2700px;
+    width: 1700px;
+}
+
+.ultraliste .listing1 {
+position: relative;
+padding-right: 35%;
+}
+.ultraliste .listing2{
+    position: relative;
+    padding-left: 40%;
+}
+.ultraliste .tuyau2{
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    height: 2200px;
+    width: 1700px;
+    rotate: calc(270deg);
+    top: -3%;
+    right: 0px;
+}
+.ultraliste .listing3{
+    position: relative;
+    padding-right: 40%;
+}
+.ultraliste .tuyau3{
+    position: absolute;
+    top: 16%;
+    left: 0px;
+    rotate: calc(90deg);
+    margin: 0;
+    padding: 0;
+    height: 2200px;
+    width: 1700px;
+}
+.ultraliste .listing4{
+    position: relative;
+    padding-left: 25%;
+}
+.ultraliste .tuyau4{
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    height: 2400px;
+    width: 2400px;
+    rotate: calc(270deg);
+    top: 36%;
+    right: 0px;
+    
+}
+.listing5 li{
+    font-family: 'Syndra-SemiBold', sans-serif;
+    font-size: 50px;
+    letter-spacing: 4px;
+    background: linear-gradient(rgb(0, 0, 0),rgb(6, 7, 2));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.listing5 p{
+    background-color: pink;
+    font-family: 'Syndra-SemiBold', sans-serif;
+    font-size: 30px;
+    letter-spacing: 2px;
+    background: linear-gradient(rgb(0, 0, 0),rgb(6, 7, 2));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.listing5{
+   position: relative;
+    padding-right: 20%; 
+    margin-left: 2%;
+    
+}
+.listing5 .tuyau5{
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    height: 2700px;
+    width: 2800px;
+    rotate: calc(90deg);
+    top: -175%;
+    right: -200px;
+    z-index: -1;
+}
+   
